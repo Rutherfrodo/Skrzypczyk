@@ -54,10 +54,12 @@ body{
   background-color: white;
   font-size: 30px;
   font-family: 'Coming Soon', cursive;
+  transition: 0.4s ease;
 }
 .buttonmenu:hover{
   background-color: black;
   color:white;
+  transition: 0.4s ease;
 }
 .opisowy{
   text-align: center;
