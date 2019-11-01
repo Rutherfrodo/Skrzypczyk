@@ -14,13 +14,13 @@
   display: none;
   position: fixed;
   z-index: 1;
-  padding-top: 100px;
   left: 0;
-  top: 0;
+  top: 50px;
   width: 100%;
   height: 100%;
   overflow: auto;
   background-color: black;
+
 }
 
 /* Modal Content */
@@ -32,6 +32,8 @@
   padding: 0;
   width: 90%;
   max-width: 1200px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 
@@ -79,10 +81,9 @@
 }
 
 .footer2{
-  padding-top: 20%;
   bottom: 0px;
   margin-bottom: 0px;
   width: 100%;
-  height: 100px;
+  height: 100%;
   background-color: grey;
 }
