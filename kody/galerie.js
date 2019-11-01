@@ -1,9 +1,13 @@
 function openModal() {
+  document.getElementById("footer").style.display = "none";
   document.getElementById("myModal").style.display = "block";
+
 }
 
 function closeModal() {
+  document.getElementById("footer").style.display = "block";
   document.getElementById("myModal").style.display = "none";
+  //Znikanie i pojawianie sie footera dodane tylko z powodu pojawiania sie podwojnego scrolla na stronie
 }
 
 var slideIndex = 1;
