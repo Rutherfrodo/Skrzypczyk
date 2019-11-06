@@ -17,7 +17,7 @@ body{
   position: fixed;
   left: 0px;
   top:0px;
-    z-index: 20;
+  z-index: 20;
   }
 .menukontener{
   background-color: white;
@@ -36,6 +36,40 @@ body{
     margin-left: 5px;
     overflow: hidden;
     z-index: 20;
+}
+.btn-group{
+  margin: 0;
+  padding: 0;
+  margin-left: 5px;
+  z-index: 20;
+  box-shadow: none;
+}
+.btn{
+  float: left;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 220px;
+  height: 100px;
+  background-color: white !important;
+  color: black !important;
+  font-family: 'Encode Sans Expanded', sans-serif !important;
+  border: 0 !important;
+}
+.btn:hover{
+  background-color: black !important;
+  color: white !important;
+}
+
+.panelmenu li{
+  float: left;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 220px;
+  height: 100px;
+  background-color: white;
+  color: black;
 }
 .menuitem{
   float: left;
@@ -86,10 +120,6 @@ p.zakres{
   max-width: 900px;
   padding: 20px;
 }
-
-
-
-
 
 .footer{
   bottom: 0px;

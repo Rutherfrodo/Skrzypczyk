@@ -11,17 +11,37 @@
     @import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded&display=swap');
     </style>
     <script src="kody/skrypt.js" async></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   </head>
   <body>
 
     <div class="panelgorny">
       <img src="paralaxbackground/logo.png" width="100">
       <div class="menukontener">
-        <ul class="panelmenu">
+        <!--<ul class="panelmenu">
           <li class="menuitem"><button id="onas" class="buttonmenu">O nas</button></li>
-          <li class="menuitem"><a href="aneta.html"><button id="galerie" class="buttonmenu">Galerie</button></a></li>
+          <li class="menuitem dropdown-menu"><button id="galerie" class="buttonmenu">Galerie</button>
+            <a class="dropdown-item" href="aneta.html">Aneta</a>
+            <a class="dropdown-item" href="#">Smartphone</a>
+          </li>
           <li class="menuitem"><button id="kontakt" class="buttonmenu">Kontakt</button></li>
-        </ul>
+        </ul>-->
+        <div class="btn-group">
+         <button type="button" class="btn btn-primary">O nas</button>
+         <button type="button" class="btn btn-primary">Kontakt</button>
+         <div class="btn-group">
+           <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+              Galeria
+           </button>
+           <div class="dropdown-menu">
+             <a class="dropdown-item" href="aneta.html">Aneta</a>
+             <a class="dropdown-item" href="#">Smartphone</a>
+           </div>
+         </div>
+        </div>
       </div>
     </div>
     <div class="parallax">
