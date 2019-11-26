@@ -28,44 +28,25 @@ body{
   top:0px;
 
 }
-.panelmenu{
-
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    margin-left: 5px;
-    overflow: hidden;
-    z-index: 20;
-}
-.btn-group{
-  margin: 0;
-  padding: 0;
-  margin-left: 5px;
-  z-index: 20;
-  box-shadow: none;
-}
-.btn{
+.menubutton{
   float: left;
   display: block;
   text-align: center;
   text-decoration: none;
   width: 220px;
   height: 100px;
-  background-color: white !important;
-  color: black !important;
-  font-family: 'Encode Sans Expanded', sans-serif !important;
-  border: 0 !important;
-  font-size: 30px !important;
+  background-color: white ;
+  color: black ;
+  font-family: 'Encode Sans Expanded', sans-serif ;
+  border: 0 ;
+  font-size: 30px ;
+  float: left;
+  transition: 0.4s ease;
 }
-.btn:hover{
-  background-color: black !important;
-  color: white !important;
-}
-.btn:focus {
-  outline: none !important;
-}
-.btn:active{
-  outline: none !important;
+.menubutton:hover{
+  background-color: black ;
+  color: white ;
+  transition: 0.4s ease;
 }
 .panelmenu li{
   float: left;
@@ -88,20 +69,7 @@ body{
   color: black;
 
 }
-.buttonmenu{
-  border: none;
-  width: 220px;
-  height: 100px;
-  background-color: white;
-  font-size: 30px;
-  font-family: 'Coming Soon', cursive;
-  transition: 0.4s ease;
-}
-.buttonmenu:hover{
-  background-color: black;
-  color:white;
-  transition: 0.4s ease;
-}
+
 .opisowy{
   text-align: center;
   background-color: white;
