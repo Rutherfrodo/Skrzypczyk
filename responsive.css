@@ -1,0 +1,21 @@
+/* MOBILKI*/
+@media only screen  and (max-width: 500px){
+  .modal-content {
+      padding-top: 50%;
+      height: 100%;
+  }
+}
+
+
+@media only screen  and (max-width: 700px){
+
+}
+
+
+@media only screen and (min-width: 701px) and (max-width: 900px){
+
+}
+/* LAPTOP*/
+@media only screen and (min-width: 901px) and (max-width: 1200px){
+
+}
