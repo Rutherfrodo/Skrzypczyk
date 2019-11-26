@@ -18,6 +18,10 @@ body{
   top:0px;
   z-index: 20;
   }
+  .logo{
+    width: 100%;
+    max-width: 100px;
+  }
 .menukontener{
   background-color: white;
   margin-left: 100px;
