@@ -12,7 +12,6 @@ body{
   font-family: 'Coming Soon', cursive;
   font-family: 'Encode Sans Expanded', sans-serif !important;
 }
-
 .panelgorny{
   position: fixed;
   left: 0px;
@@ -26,7 +25,6 @@ body{
   height: 100px;
   position: fixed;
   top:0px;
-
 }
 .menubutton{
   float: left;
@@ -48,28 +46,19 @@ body{
   color: white ;
   transition: 0.4s ease;
 }
-.panelmenu li{
-  float: left;
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  width: 220px;
-  height: 100px;
-  background-color: white;
+.dropdown-menu a {
   color: black;
-}
-.menuitem{
-  float: left;
-  display: block;
-  text-align: center;
+  padding: 12px 16px;
   text-decoration: none;
-  width: 220px;
-  height: 100px;
-  background-color: white;
-  color: black;
-
+  display: block;
 }
-
+.dropdown-menu a:hover {
+  color: white;
+  background-color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
 .opisowy{
   text-align: center;
   background-color: white;
