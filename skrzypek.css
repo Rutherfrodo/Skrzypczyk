@@ -52,7 +52,6 @@ body{
   position: relative;
   transition: 0.5s;
 }
-
 .menubutton span:after {
   content: '\00bb';
   position: absolute;
