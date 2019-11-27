@@ -6,14 +6,15 @@ window.onload = function () {
 
 
   kontaktbutton.onclick = function(){
-    const element = document.getElementById("footer");
+    var element = document.getElementById("footer");
     element.scrollIntoView({block:'nearest',behavior:'smooth',inline:'end'});
-  }
+  };
 
   onasbutton.onclick = function(){
-    const element = document.getElementById("ofe");
+    var element = document.getElementById("ofe");
     element.scrollIntoView({block:'nearest',behavior:'smooth',inline:'start'});
-  }
-  //// TODO: Poprawa scrolli, są niedokładne. Źle nakierowuje na elementy strony
+    
+  };
+  // TODO: Poprawa scrolli, są niedokładne. Źle nakierowuje na elementy strony
 
 };
